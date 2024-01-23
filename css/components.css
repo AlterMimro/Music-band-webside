@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.grey-block {
+  position: absolute;
+  height: 40px;
+  width: 35%;
+  background-color: #1a1a1b;
+}
+.grey-block-left {
+  bottom: 0;
+  left: -50px;
+  -webkit-transform: skew(45deg);
+          transform: skew(45deg);
+}
+.grey-block-right {
+  bottom: 0;
+  right: -50px;
+  -webkit-transform: skew(-45deg);
+          transform: skew(-45deg);
+}/*# sourceMappingURL=components.css.map */
